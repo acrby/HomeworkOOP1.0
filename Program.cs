@@ -20,13 +20,14 @@ namespace HomeworkOOP1._0
     {
         static void Main(string[] args)
         {
-            MyClass a = new MyClass();
+            Robot.MyClass a = new Robot.MyClass();
             a.fieldOfClass = 1;
             a.Method();
 
-            MyClass b = new MyClass();
+            Robot.MyClass b = new Robot.MyClass();
             b.fieldOfClass = 2;
             b.Method();
+
 
             Console.ReadKey();
         }
