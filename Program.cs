@@ -1,18 +1,21 @@
 ﻿using System;
+using Robot;
 
-namespace HomeworkOOP1._0
-{
 
+namespace Robot{
     class MyClass
     {
-       public int fieldOfClass;
+        public int fieldOfClass;
 
-        public void Method ()
+        public void Method()
         {
             Console.WriteLine(fieldOfClass);
         }
     }
+}
 
+namespace HomeworkOOP1._0
+{
     class Program
     {
         static void Main(string[] args)
